@@ -46,7 +46,7 @@ for(let i=0;i<product.ratings.length;i++){
      break;
    }
 }
-ratingschema={
+const ratingschema={
    userid:req.user,
    rating:rating,
 }
